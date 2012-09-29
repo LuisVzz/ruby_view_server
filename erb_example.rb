@@ -8,7 +8,7 @@ numbers = [1, 2, 3, 4]
 
 erb_string = "
 
-<h1><%= me[:name] + '\\'s ' + 'Blog'%></h1>
+<h1><%= me[:name] + "'s " + "Blog"%></h1>
 
 <ul>
 	<% animals.each do |animal| %>
