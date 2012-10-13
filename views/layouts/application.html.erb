@@ -1,6 +1,6 @@
 <%
   def link_to(name, url)
-    return "a href='#{url}'>#{name}</a>"
+    return "<a href='#{url}'>#{name}</a>"
   end
 %>
 
@@ -11,9 +11,11 @@
       <h3> I'm a header</h3>
       <p>Put things in the header</p>
       <a href='me.html'>Me</a>
-      <%= link_to('Google Mexico', 'www.google.com.mx') %>
-      <%= link_to('Yahoo Finance', 'www.finance.yahoo.com') %>
-      <%= link_to('Facebook', 'www.facebook.com') %>
+      <ul>
+        <li><%= link_to('Google Mexico', 'www.google.com.mx') %></li>
+        <li><%= link_to('Yahoo Finance', 'www.finance.yahoo.com') %></li>
+        <li><%= link_to('Facebook', 'www.facebook.com') %></li>
+      </ul>
     </p>
     <hr />
     <div>
